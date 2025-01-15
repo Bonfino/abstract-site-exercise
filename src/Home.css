@@ -1,0 +1,24 @@
+div h3 {
+  font-family: "GT America Standard", sans-serif;
+}
+
+div p {
+  font-family: "GT America Standard", sans-serif;
+}
+
+.item {
+  width: 50%;
+  height: 50%;
+}
+
+.item h3 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 700;
+}
+
+.item p {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  width: 50%;
+}
