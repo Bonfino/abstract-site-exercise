@@ -9,16 +9,41 @@ div p {
 .item {
   width: 50%;
   height: 50%;
+  display: flex;
+  padding-right: 16px;
+  margin-bottom: 100px;
 }
 
 .item h3 {
   font-size: 1.5rem; /* 24px */
   line-height: 2rem; /* 32px */
   font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .item p {
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.75rem; /* 28px */
-  width: 50%;
+  font-size: 1.5rem; /* 24px */
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.item img {
+  max-height: 180px;
+  max-width: 90px;
+  margin-right: 30px;
+}
+
+.item-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.item a{
+  font-size: 21px;
+  line-height: 28px;
+  color: #4C5FD5;
+}
+
+.item a:hover{
+  text-decoration: underline;
 }
