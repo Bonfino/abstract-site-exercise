@@ -3,7 +3,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <header>
-      <ul className="flex bg-black h-20 items-center px-8 justify-between">
+      <ul className="flex bg-black h-20 items-center px-20 justify-between">
         <div>
           <li className="hover:text-gray-400">
             <a href="">Abstract</a>
